@@ -1,44 +1,15 @@
-# 📊 PhonePe Transaction Insights - Google Colab Notebook
+📌 Project Overview
+With the rapid growth of digital payment platforms like PhonePe, analyzing transaction behavior, user engagement, and insurance adoption is essential for understanding regional trends and improving financial services.
+This project focuses on analyzing aggregated transaction and insurance data across states, districts, and pin codes in India. Using data analytics and visualization techniques, meaningful insights are derived to identify top-performing regions, popular payment categories, and user trends.
 
-This repository contains a **full Google Colab notebook** for analyzing PhonePe transaction data at **state and district levels** in India.
+🎯 Objectives
+Analyze aggregated transaction values across different payment categories
+Visualize state-wise and district-wise transaction performance
+Identify top states, districts, and pin codes based on transactions and insurance data
+Understand user engagement patterns over time
+Create interactive and insightful visualizations for better decision-making
 
-It uses data from the [PhonePe Pulse GitHub repository](https://github.com/PhonePe/pulse) and provides interactive dashboards for easy visualization.
-
----
-
-## **Features**
-
-- ✅ Aggregates transaction data by **state and district**
-- ✅ Shows **top states** by transaction amount
-- ✅ Displays **payment type analysis** per state
-- ✅ Identifies **top districts** by transaction amount
-- ✅ Interactive **dashboard with dropdowns** for Year, Quarter, and State
-- ✅ Choropleth **India map visualization** by transaction amounts
-- ✅ Saves **processed data to Google Drive** as CSV
-
----
-
-## **Usage**
-
-1. Open the notebook in **Google Colab**.
-2. Run all cells sequentially.
-3. Interact with the dropdowns to explore transaction data.
-4. Export the analysis to Google Drive if needed.
-
----
-
-## **Requirements**
-
-- Python 3.x
-- Google Colab
-- Packages:
-  - `pandas`
-  - `plotly`
-  - `matplotlib`
-  - `ipywidgets`
-  - `sqlite3` (standard library)
-
-Install missing packages with:
-
-```python
-!pip install pandas plotly matplotlib ipywidgets
+🛠️ Tools & Technologies Used
+Python (Pandas, NumPy)
+Data Visualization (Matplotlib, Seaborn / Plotly)
+SQL (for structured querying and analysis)
